@@ -118,4 +118,11 @@ p.halal {
   background-color: #807c7c;
   margin: 11px;
   padding: 11px;
+  border: 11px;
+}
+
+footer {
+  margin: 11px;
+  padding: 11px;
+  border: 11px;
 }
