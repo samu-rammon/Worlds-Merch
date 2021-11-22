@@ -14,6 +14,10 @@ nav {
     max-width: 100%;
 }
 
+footer {
+  background-color: #181414;
+}
+
 #produtos, #sobre, #fale {
     min-height: 100vm;
     padding: 4em;
