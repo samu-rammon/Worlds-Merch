@@ -34,6 +34,7 @@ footer {
 
 h1 {
   font-family: 'Bebas Neue', cursive;
+  font-size: 35px;
 }
 
 
@@ -123,5 +124,5 @@ p.halal {
 
 p.haraam {
   font-family: 'Bebas Neue', cursive;
-  font-size: 15px;
+  font-size: 28px;
 }
