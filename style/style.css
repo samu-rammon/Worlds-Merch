@@ -26,9 +26,7 @@ footer {
 
 
 .azul {
-    
-    color: #085064;
-    font-family: 'Bebas Neue', cursive;
+        font-family: 'Bebas Neue', cursive;
     font-size: 40px;
 }
 
@@ -48,14 +46,20 @@ h1 {
 
 #fale {
     background-color: #15768F;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 22px;
+    color: #085064;
 }
 
 #produtos .card {
     background-color: #1EC97A;
 }
 
-
-.card{
+#pedido{
+  padding-top: 11em;
+  padding-bottom: 2em;
+}
+.card-j{
     border-radius: 4px;
     background-color: #1EC97A;
     box-shadow: 0 6px 10px rgba(0,0,0,.08), 0 0 6px rgba(0,0,0,.05);
@@ -64,16 +68,16 @@ h1 {
   cursor: pointer;
 }
 
-.card:hover{
+.card-j:hover{
      transform: scale(1.05);
   box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
 }
 
-.card h3{
+.card-j h3{
   font-weight: 600;
 }
 
-.card img{
+.card-j img{
   position: absolute;
   top: 20px;
   right: 15px;
@@ -104,7 +108,7 @@ h1 {
 }
 
 @media(max-width: 990px){
-  .card{
+  .card-j{
     margin: 20px;
     background-color: #1EC9B5;
   }
@@ -120,9 +124,42 @@ p.halal {
   margin: 11px;
   padding: 11px;
   border: 11px;
+  margin-bottom: 0px;
 }
+
+
 
 p.haraam {
   font-family: 'Bebas Neue', cursive;
   font-size: 28px;
+  color: #085064;
+}
+
+.preto { 
+  -webkit-filter: grayscale(100%); 
+}
+
+.pretom {
+  -webkit-filter: invert(100%);
+  -webkit-filter: grayscale(100%); 
+}
+
+.preto, .pretom {
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  margin-block-start: 0.5em;
+  margin-block-end: 0.5em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 22px;
+
+}
+
+.jogar {
+  text-align: center;
+}
+
+.sofrencia:hover {
+  transform: scale(1.5);
 }
