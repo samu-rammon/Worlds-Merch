@@ -120,3 +120,8 @@ p.halal {
   padding: 11px;
   border: 11px;
 }
+
+p.haraam {
+  font-family: 'Bebas Neue', cursive;
+  font-size: 15px;
+}
