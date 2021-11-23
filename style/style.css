@@ -12,6 +12,7 @@ nav {
     width: 100%;
     z-index: 1000000000;
     max-width: 100%;
+    transition: 0.5s;
 }
 
 footer {
