@@ -162,4 +162,5 @@ p.haraam {
 
 .sofrencia:hover {
   transform: scale(1.5);
+  transition: 1s;
 }
